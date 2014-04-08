@@ -1,0 +1,341 @@
+---
+
+# Usage: put the file at ~/.sup/colors.yaml
+
+# ======================================
+# globals
+
+:status:
+  :fg: 252
+  :bg: default
+  :attrs:
+  - bold
+
+:twiddle:
+  :fg: 241
+  :bg: default
+
+:text:
+  :highlight: default_highlight
+  :fg: 252
+  :bg: default
+
+# convenience
+:default_highlight:
+  :fg: 252
+  :bg: 236
+
+# ======================================
+# thread-index-mode
+
+:date:
+  :highlight: default_highlight
+  :fg: 252
+  :bg: default
+
+:to_me:
+  :highlight: to_me_highlight
+  :fg: 160
+  :bg: default
+:to_me_highlight:
+  :fg: 160
+  :bg: 236
+
+:size_widget:
+  :highlight: default_highlight
+  :fg: 252
+  :bg: default
+
+:from_old:
+  :highlight: from_highlight
+  :fg: 166
+  :bg: default
+:from_highlight:
+  :fg: 166
+  :bg: 236
+
+:from_new:
+  :highlight: from_new_highlight
+  :fg: 166
+  :bg: default
+:from_new_highlight:
+  :fg: 166
+  :bg: 236
+
+:from_starred:
+  :highlight: from_starred_highlight
+  :fg: 166
+  :bg: default
+
+:from_starred_highlight:
+  :fg: 166
+  :bg: 236
+
+:index_old:
+  :highlight: default_highlight
+  :fg: 250
+  :bg: default
+
+:index_new:
+  :highlight: index_new_highlight
+  :fg: 255
+  :bg: default
+  :attrs:
+  - bold
+:index_new_highlight:
+  :fg: 255
+  :bg: 236
+  :attrs:
+  - bold
+
+:snippet:
+  :highlight: snippet_highlight
+  :fg: 240
+  :bg: default
+:snippet_highlight:
+  :fg: 246
+  :bg: 236
+
+:label:
+  :highlight: label_highlight
+  :fg: 160
+  :bg: default
+:label_highlight:
+  :fg: 160
+  :bg: 236
+
+:tagged:
+  :highlight: tagged_highlight
+  :fg: 160
+  :bg: default
+  :attrs:
+  - bold
+:tagged_highlight:
+  :fg: 160
+  :bg: 236
+  :attrs:
+  - bold
+
+# the one-character widget '*'
+:starred:
+  :highlight: starred_highlight
+  :fg: 160
+  :bg: default
+  :attrs:
+  - bold
+:starred_highlight:
+  :fg: 160
+  :bg: 236
+  :attrs:
+  - bold
+
+# subject of a starred message
+:index_starred:
+  :highlight: index_starred_highlight
+  :fg: 160
+  :bg: default
+  :attrs:
+  - bold
+:index_starred_highlight:
+  :fg: 160
+  :bg: 236
+  :attrs:
+  - bold
+
+# ======================================
+# thread-view-mode
+
+:message_patina: # message header
+  :highlight: message_patina_highlight
+  :fg: 160
+  :bg: 234
+:message_patina_highlight:
+  :fg: 160
+  :bg: 236
+
+:alternate_patina: # message header
+  :highlight: default_highlight
+  :fg: 166
+  :bg: 234
+:alternate_patina_highlight:
+  :fg: 166
+  :bg: 236
+
+:quote:
+  :highlight: quote_highlight
+  :fg: 246
+  :bg: default
+:quote_highlight:
+  :fg: 246
+  :bg: 236
+
+:quote_patina:
+  :highlight: quote_patina_highlight
+  :fg: 246
+  :bg: default
+:quote_patina_highlight:
+  :fg: 246
+  :bg: 236
+
+:sig:
+  :highlight: sig_highlight
+  :fg: 246
+  :bg: default
+:sig_highlight:
+  :fg: 246
+  :bg: 236
+
+:sig_patina:
+  :highlight: sig_patina_highlight
+  :fg: 246
+  :bg: default
+:sig_patina_highlight:
+  :fg: 246
+  :bg: 236
+
+:attachment:
+  :highlight: attachment_highlight
+  :fg: 10
+  :bg: default
+:attachment_highlight:
+  :fg: 10
+  :bg: 236
+
+:cryptosig_valid:
+  :highlight: cryptosig_valid_highlight
+  :fg: 240
+  :bg: default
+:cryptosig_valid_highlight:
+  :fg: 240
+  :bg: 236
+
+:cryptosig_unknown:
+  :highlight: cryptosig_unknown_highlight
+  :fg: 113
+  :bg: default
+:cryptosig_unknown_highlight:
+  :fg: 113
+  :bg: 236
+
+:cryptosig_invalid:
+  :fg: yellow
+  :bg: red
+  :attrs:
+  - bold
+
+# ======================================
+# label list
+
+:labellist_new:
+  :fg: black
+  :bg: red
+  :attrs:
+  - bold
+
+:labellist_old:
+  :highlight: default_highlight
+  :fg: 252
+  :bg: default
+
+:labellist_new:
+  :highlight: labellist_new_highlight
+  :fg: 166
+  :bg: default
+:labellist_new_highlight:
+  :fg: 166
+  :bg: 236
+
+# ======================================
+# misc
+
+:regular_buf:
+  :highlight: default_highlight
+  :fg: 252
+  :bg: default
+
+:system_buf:
+  :highlight: default_highlight
+  :fg: 252
+  :bg: default
+
+:modified_buffer:
+  :highlight: default_highlight
+  :fg: 252
+  :bg: default
+
+:search_highlight:
+  :highlight: search_highlight_highlight
+  :fg: black
+  :bg: 11
+:search_highlight_highlight:
+  :fg: black
+  :bg: 11
+
+# ======================================
+# reply-mode
+
+:horizontal_selector_selected:
+  :highlight: horizontal_selector_selected_highlight
+  :fg: 11
+  :bg: default
+  :attrs:
+  - bold
+:horizontal_selector_selected_highlight:
+  :fg: 11
+  :bg: 236
+  :attrs:
+  - bold
+
+:horizontal_selector_unselected:
+  :highlight: horizontal_selector_unselected_highlight
+  :fg: 252
+  :bg: default
+:horizontal_selector_unselected_highlight:
+  :fg: 252
+  :bg: 236
+
+# ======================================
+# completion-mode
+
+:completion_character:
+  :fg: 252
+  :bg: 53
+
+# ======================================
+# TODO
+
+:draft_notification:
+  :fg: black
+  :bg: red
+  :attrs:
+  - bold
+
+:missing_message:
+  :fg: black
+  :bg: red
+
+:starred_patina:
+  :fg: black
+  :bg: red
+  :attrs:
+  - bold
+
+:alternate_starred_patina:
+  :fg: black
+  :bg: red
+  :attrs:
+  - bold
+
+:generic_notice_patina:
+  :fg: cyan
+  :bg: default
+
+:option:
+  :fg: 252
+  :bg: default
+
+:index_draft:
+  :fg: red
+  :bg: default
+  :attrs:
+  - bold
